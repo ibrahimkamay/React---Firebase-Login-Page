@@ -1,0 +1,76 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    
+    &__container {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cacaca;
+    padding: 50px 25px;
+    border-radius: 12px;
+        h2 {
+            text-align: center;
+        }
+
+        input {
+        padding: 10px;
+        margin: 8px 0px;
+        outline: none;
+        font-size: 18px;
+        border: 1px solid#CACACA;
+        border-radius: 6px;
+        font-size: .9rem;
+            }
+
+        &__login {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            color: #6b6b6b;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 15px;
+            background-color: #0171d3;
+            color: #fff;
+            cursor: pointer;
+        }
+        &__register{
+            text-align: center;
+            font-size: .9rem;
+            cursor: pointer;
+        }
+        &__google {
+            position: relative;
+            border: 1px solid #CACACA;
+            padding: 10px;
+            color: #6b6b6b;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 10px;
+
+            color: #232836;
+            cursor: pointer;
+        }
+        &__line {
+            position: relative;
+            height: 1px;
+            width: 100%;
+            margin: 16px 0;
+            background-color: #d4d4d4;
+           
+        }
+        &__line:before {
+        content: 'veya';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #FFF;
+        color: #8b8b8b;
+        padding: 0 15px;
+        }
+    }   
+}
