@@ -1,8 +1,14 @@
 import React from 'react'
+import "../styles/pages/Home.scss"
 
-const Home = () => {
+const Home = ({users}) => {
   return (
-    <div>Home</div>
+    <div className='users'>
+      <div className='wrap'>
+      <h2>Welcome!  </h2>
+  
+      <span>👋🏼 {users?.email}</span></div>
+      </div>
   )
 }
 

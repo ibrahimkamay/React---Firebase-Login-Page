@@ -1,8 +1,10 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Firebase Login Page
 
-Currently, two official plugins are available:
+Bu projede react ile birlikte firebase kullanarak kullanıcı girişi yaptırdım. Hem email/password ile hemde google ile birlikte giriş yapabilirsiniz. Giriş yaptıktan sonra giriş sayfasına yönlendirip hoşgeldiniz mesajı ile kullancıyı karşılıyorum. Giriş yapıldığında çıkan çıkış yap butonu ile çıkış yapıp kullanıcı girişi veya kayıtı tekrar yapabilirsiniz.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Önizleme;
+
+![Logo](https://img001.prntscr.com/file/img001/gGVtOe4TRgaharZyxxh7vg.png)
+
+    
